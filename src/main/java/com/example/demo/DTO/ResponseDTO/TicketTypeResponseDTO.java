@@ -11,5 +11,9 @@ import lombok.Setter;
 @NoArgsConstructor
 public class TicketTypeResponseDTO {
     private Long id;
-    private String sda;
+    private String eventid;
+    private String eventTitle;
+    private String TicketTYPE;
+    private String attendeeUsername;
+    private String status;
 }
