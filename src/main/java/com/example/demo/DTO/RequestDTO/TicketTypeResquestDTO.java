@@ -1,6 +1,5 @@
 package com.example.demo.DTO.RequestDTO;
 
-
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,15 +10,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateEventRequestDTO {
+public class TicketTypeResquestDTO {
     @NotBlank
-    private String title;
-    private String description;
-    @NotBlank
-    private String category;
-    @NotBlank
-    private  String eventDate;
-    @NotBlank
-    private  String location;
+    private Long tickettype;
 
 }
